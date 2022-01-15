@@ -19,4 +19,4 @@ TODO Outline
 
 ## Installing macOS
 
-By default Apple devices come with macOS already pre-installed on them. Depending on your [security posture](#security-posture) it maybe acceptable to use the machine as is with this default setup and simply go through the intial configuration. Otherwise, it may make more sense to overwrite this install with a brand new installation of the operatiny system. This section will cover these different scenarios
+By default Apple devices come with macOS already pre-installed on them. Depending on your [security posture](#security-posture) it maybe acceptable to use the machine as is with this default setup and simply go through the intial configuration. Otherwise, it may make more sense to overwrite this install with a brand new installation of the operating system. This section will cover these different scenarios
