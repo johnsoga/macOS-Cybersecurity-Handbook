@@ -11,3 +11,12 @@ Hardware/Machines currently covered by this guide
 * MacBook Air (M1) 2020 and Newer
 * Mac Mini (M1) 2020 and Newer
 * iMac (M1) 2020 and Newer
+
+## Security Posture
+
+TODO Outline
+* Trust in procurement of device
+
+## Installing macOS
+
+By default Apple devices come with macOS already pre-installed on them. Depending on your [security posture](#security-posture) it maybe acceptable to use the machine as is with this default setup and simply go through the intial configuration. Otherwise, it may make more sense to overwrite this install with a brand new installation of the operatiny system. This section will cover these different scenarios
