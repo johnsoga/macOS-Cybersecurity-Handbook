@@ -28,3 +28,12 @@ By default Apple includes a [Recovery Partition](https://support.apple.com/guide
 ### Reinstalling macOS from a Bootable Installer
 
 While reinstalling from a recovery partition will provide you with a fresh install of the OS. It does not reinstall the Recovery Partiion itself, so, to have a completely clean platform to reinstall macOS on you will need to wipe the entire disk first. To do this you will need to have the OS image installer on a separate media to reinstall from. Apple provide [instructions](https://support.apple.com/en-us/HT201372) on how to do this. Effecitvely, you will be create booting from that external device like was the "Recovery Partition" which will allow you to wipe and reformat the whole internal disk and then reinstall macOS and the "Recovery Partition" on it.
+
+#### Verify Image
+
+Like any software package when/if possible you should attempt to [verify the authenticity](https://en.wikipedia.org/wiki/File_verification) of the software package to ensure that it has not been tampered with. Apple uses "Code Signing"[^CodeSigning] to force code distributed via the App Store to be [digitally signed](https://developer.apple.com/support/code-signing/), which includes Apple's own OS which is distributed via the App Store as well. 
+
+
+[^CodeSigningGuide]: see [Code Signing Guide](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html) and [Technical Note TN2206](https://developer.apple.com/library/archive/technotes/tn2206
+https://developer.apple.com/library/archive/technotes/tn2206)
+
