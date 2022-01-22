@@ -19,22 +19,22 @@ TODO Outline
 
 ## Installing macOS
 
-By default Apple devices come with macOS already pre-installed on them. Depending on your [security posture](#security-posture) it maybe acceptable to use the machine as is with this default setup and simply go through the intial configuration. Otherwise, it may make more sense to overwrite this install with a brand new installation of the operating system. This section will cover these different scenarios
+By default, Apple devices come with macOS already pre-installed. Depending on your [security posture](#security-posture) it may be acceptable to use your device as is with this default install and going through the intial configuration setup. If your security posture is higher it may otherwise make more sense to overwrite this install with a new installation of the operating system. This section will cover these different scenarios
 
 ### Reinstalling macOS from a Recovery Partition
 
-By default Apple includes a [Recovery Partition](https://support.apple.com/guide/mac-help/macos-recovery-a-mac-apple-silicon-mchl82829c17) which allows for several simple diagnostics tasks including [reinstalling](https://support.apple.com/en-us/HT204904) the OS. 
+Apple includes a "[Recovery Partition](https://support.apple.com/guide/mac-help/macos-recovery-a-mac-apple-silicon-mchl82829c17)" which allows for several simple diagnostics tasks including [reinstalling](https://support.apple.com/en-us/HT204904) the operating system. 
 
 ### Reinstalling macOS from a Bootable Installer
 
-While reinstalling from a recovery partition will provide you with a fresh install of the OS. It does not reinstall the Recovery Partiion itself, so, to have a completely clean platform to reinstall macOS on you will need to wipe the entire disk first. To do this you will need to have the OS image installer on a separate media to reinstall from. Apple provide [instructions](https://support.apple.com/en-us/HT201372) on how to do this. Effecitvely, you will be create booting from that external device like was the "Recovery Partition" which will allow you to wipe and reformat the whole internal disk and then reinstall macOS and the "Recovery Partition" on it.
+While reinstalling from a recovery partition will provide you with a fresh install of the OS. It does not reinstall the "Recovery Partiion" itself, so, to have a completely clean platform to reinstall macOS on you will need to wipe the entire disk first. To do this you will need to have the OS image installer on a separate media to reinstall from. Apple provides [documentation](https://support.apple.com/en-us/HT201372) on how to do this. Effectively, you will be booting from that external device as if it was the "Recovery Partition" which will allow you to wipe internal disk of the machine and then reinstall macOS and the "Recovery Partition" on to it.
 
 #### Verify the Installer
 
-It is best practice to validate any software package, if possible, before you install it to ensure the validity of the software. Usually this is done by [hashing](https://en.wikipedia.org/wiki/File_verification) the bundle. Apple, however, chooses to use ["Code Signing"](https://developer.apple.com/support/code-signing/)[^note] instead to acheive a similar, albeit more complicated, result. It maybe worth noting that "Code Signing" is actually required of all software distributed via the App Store, this includes Apple's own OS Installer which is distributed in this manner. While Apple seems to have not properly signed the Installer App we can use 2 other pieces of information to provide a certain level of trust about the Installer App:
+It is always best practice to validate any software package, if possible, before you install it to ensure the validity of the software. Usually, this is done by [hashing](https://en.wikipedia.org/wiki/File_verification) the bundle and comparing the result with the hash value provided by the software maintainer. Apple, however, chooses to use ["Code Signing"](https://developer.apple.com/support/code-signing/)[^note] instead to achieve a similar, albeit more complicated, result. It maybe worth noting that "Code Signing" is actually required of all software distributed via the App Store, this includes Apple's own OS Installer which is distributed in this manner. While Apple seems to have not properly signed their OS Installer app we can use 2 other pieces of information to provide a certain level of trust about the Installer app:
 
 1. [Gatekeeper](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/web), by default, only allows software signed by valid developers to be run
-2. We can verify the certificate chain used to sign the Installer App; see below
+2. We can verify the certificate chain used to sign the Installer app; see below
 
 ```console
 $ pkgutil --verbose --check-signature /Applications/Install\ macOS\ Monterey.app
@@ -60,6 +60,6 @@ Package "Install macOS Monterey":
            68 C5 BE 91 B5 A1 10 01 F0 24
 ```
  
-While it would be better if Apple would propery sign this Installer App these 2 pieces of information should provide atleast a cautionary level of trust. If not, well, you did choose to support this company :cry:
+While it would be better if Apple would properly sign this Installer app these 2 pieces of information provide atleast a cautionary level of trust. If not, well, you did choose to support this company :cry:
 
 [^note]: see [Code Signing Guide](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html) and [Technical Note TN2206](https://developer.apple.com/library/archive/technotes/tn2206)
