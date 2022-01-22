@@ -14,8 +14,13 @@ Hardware/Machines currently covered by this guide
 
 ## Security Posture
 
-TODO Outline
-* Trust in procurement of device
+TODO
+- [ ] Trust in procurement of device
+
+### Frameworks
+
+TODO
+- [ ] [macOS Security Compliance Project](https://support.apple.com/guide/sccc/macos-security-compliance-project-sccc22685bb2/web): [Github](https://github.com/usnistgov/macos_security)[NIST](https://csrc.nist.gov/Projects/macos-security)
 
 ## Installing macOS
 
@@ -61,5 +66,25 @@ Package "Install macOS Monterey":
 ```
  
 While it would be better if Apple would properly sign this Installer app these 2 pieces of information provide atleast a cautionary level of trust. If not, well, you did choose to support this company :cry:
+
+## Setup
+
+TODO
+- [ ] Setup Configuration
+- [ ] Filevault
+
+## Post-Setup
+
+TODO
+- [ ] Firewall: [ref1](https://support.apple.com/en-us/HT201642)
+- [ ] Third Party Firewalls: little snitch
+- [ ] Remote Login (SSH)
+- [ ] Remote Management
+- [ ] AntiVirus/AntiMaleware
+- [ ] User Accounts
+- [ ] Passwords
+- [ ] Locking Machine
+- [ ] Guest Account
+- [ ] OS/Security Updates
 
 [^note]: see [Code Signing Guide](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html) and [Technical Note TN2206](https://developer.apple.com/library/archive/technotes/tn2206)
