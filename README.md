@@ -20,7 +20,7 @@ TODO
 ### Frameworks
 
 TODO
-- [ ] [macOS Security Compliance Project](https://support.apple.com/guide/sccc/macos-security-compliance-project-sccc22685bb2/web): [Github](https://github.com/usnistgov/macos_security)[NIST](https://csrc.nist.gov/Projects/macos-security)
+- [ ] [macOS Security Compliance Project](https://support.apple.com/guide/sccc/macos-security-compliance-project-sccc22685bb2/web): [Github](https://github.com/usnistgov/macos_security)/[NIST](https://csrc.nist.gov/Projects/macos-security)
 
 ## Installing macOS
 
