@@ -74,6 +74,19 @@ TODO
 - [ ] Filevault
 
 ## Post-Setup
+### Firewalls
+#### Inbound Firewalls
+A normal firewall(L3/L4) is primarily used to control Ingress (Inbound)/Egress (Outbound) data flows into a network/device usually by looking at the port and protocol of the connection being attempted. An application firewall(L7) is concerned with "who" is trying to make a connection regardless, typically, of the port/protocol being used. As an example with a normal firewall I might want to block all inbound TCP connections on port 80 where as with an application firewall I would say perhaps block all inbound connections for Apache, or perhaps that might be more refined to block all HTTP connections to Apache.
+
+As it applies to macOS Apple includes an application firewall which by default is turned off. You should turn this firewall on by navigating to System Preferences -> Security & Privacy -> Firewall. This firewall looks at inbound connections and there are further configurations that can be enabled by going to "Firewall Options", good defaults to enable would be:
+
+* Automatically allow built-in software to receive incoming connections
+    * i.e. iCloud, Find My Mac, etc.
+* Automatically allow downloaded and signed software to receive incoming connections
+    * i.e anything downloaded from the App Store or in general from a third party that is validly signed by Apple
+* Enable stealth mode
+
+Apple offers a bit more detail about these options [here](https://support.apple.com/en-us/HT201642)
 
 TODO
 - [ ] Firewall: [ref1](https://support.apple.com/en-us/HT201642)
