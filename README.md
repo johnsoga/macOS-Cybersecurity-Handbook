@@ -86,7 +86,7 @@ As it applies to macOS Apple includes an application firewall which by default i
     * i.e anything downloaded from the App Store or in general from a third party that is validly signed by Apple
 * Enable stealth mode
 
-Apple offers a bit more detail about these options [here](https://support.apple.com/en-us/HT201642)
+Apple offers a bit more detail about these options [here](https://support.apple.com/en-us/HT201642). Apple also publishes a list of ports used by macOS [here](https://support.apple.com/en-us/HT202944)
 
 TODO
 - [ ] Firewall: [ref1](https://support.apple.com/en-us/HT201642)
