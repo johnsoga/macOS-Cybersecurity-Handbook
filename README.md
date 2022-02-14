@@ -86,11 +86,24 @@ As it applies to macOS Apple includes an application firewall which by default i
     * i.e anything downloaded from the App Store or in general from a third party that is validly signed by Apple
 * Enable stealth mode
 
+##### Popular Software
+Paid/Proprietary Software:
+* [Vallum](https://www.vallumfirewall.com/)
+* [Murus](https://www.murusfirewall.com/murus/)
+
 Apple offers a bit more detail about these options [here](https://support.apple.com/en-us/HT201642). Apple also publishes a list of ports used by macOS [here](https://support.apple.com/en-us/HT202944)
 
+#### Outbound Firewalls
+While previously associated with users trying to prevent "Hacked/Cracked" software from "Phoning Home", this category of firewalls has seen even further popularity due to proprietary software attempting to send "Telemetry" data, data about the user or or how they configure the software, back to the developer. This has prompted many users to take a more hands on approach to monitoring, and disabling, connections this software tries to make
+
+##### Popular Software
+Paid/Proprietary Software:
+* [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html): Personally used by and vouched for by [myself](https://github.com/johnsoga)(Repo Owner)
+* [Radio Silence](https://radiosilenceapp.com/)
+Free:
+* [LuLu](https://objective-see.com/products/lulu.html)
+
 TODO
-- [ ] Firewall: [ref1](https://support.apple.com/en-us/HT201642)
-- [ ] Third Party Firewalls: little snitch
 - [ ] Remote Login (SSH)
 - [ ] Remote Management
 - [ ] AntiVirus/AntiMaleware
