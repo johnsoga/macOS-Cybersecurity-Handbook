@@ -118,3 +118,6 @@ TODO
 - [ ] Automatic Login
 
 [^note]: see [Code Signing Guide](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html) and [Technical Note TN2206](https://developer.apple.com/library/archive/technotes/tn2206)
+
+## References:
+This repo draws heavy inspiration as well as information from [macOS Security and Privacy Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
