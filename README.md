@@ -100,6 +100,7 @@ While previously associated with users trying to prevent "Hacked/Cracked" softwa
 Paid/Proprietary Software:
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html): Personally used by and vouched for by [myself](https://github.com/johnsoga)(Repo Owner)
 * [Radio Silence](https://radiosilenceapp.com/)
+
 Free:
 * [LuLu](https://objective-see.com/products/lulu.html)
 
