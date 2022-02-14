@@ -105,6 +105,7 @@ Free:
 * [LuLu](https://objective-see.com/products/lulu.html)
 
 TODO
+- [ ] Spotlight Suggestions
 - [ ] Remote Login (SSH)
 - [ ] Remote Management
 - [ ] AntiVirus/AntiMaleware
