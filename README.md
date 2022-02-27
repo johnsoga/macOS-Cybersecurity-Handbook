@@ -96,15 +96,15 @@ Paid/Proprietary Software:
 * [Murus](https://www.murusfirewall.com/murus/)
 
 #### Outbound Firewalls
-While previously associated with users trying to prevent "Hacked/Cracked" software from "Phoning Home", this category of firewalls has seen even further popularity due to proprietary software attempting to send "Telemetry" data, data about the user or or how they configure the software, back to the developer. This has prompted many users to take a more hands on approach to monitoring, and disabling, connections this software tries to make
+While usually associated with users trying to prevent "Hacked/Cracked" software from "Phoning Home", this category of firewalls has seen even further popularity due to proprietary software attempting to send "Telemetry" data, data about the user or how they configure their software, back to the developer. This has prompted many users to take a more hands on approach to monitoring and disabling connections this type of software tries to make
 
-##### Popular Software
+##### Popular Third-Party Software
 Paid/Proprietary Software:
 * [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html): Personally used by and vouched for by [myself](https://github.com/johnsoga)(Repo Owner)
 * [Radio Silence](https://radiosilenceapp.com/)
 
 Free:
-* [LuLu](https://objective-see.com/products/lulu.html)
+* [LuLu](https://objective-see.com/products/lulu.html)([Open Source(https://github.com/objective-see/LuLu)])
 
 TODO
 - [ ] Spotlight Suggestions
