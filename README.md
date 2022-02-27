@@ -4,6 +4,13 @@ Currently, Apple is in the process of transitioning their (computers) physical a
 
 To suggest improvements feel free to submit a pull request or open an [issue](https://github.com/johnsoga/macOS-Cybersecurity-Handbook/issues).
 
+### Contents:
+1. [Supported Hardware](#supported-hardware) 
+2. [Security Posture](#security-posture)
+3. [Installing macOS](#installing-macos)
+4. [Setup macOS](#setup)
+5. [Post-Setup](#post-setup)
+
 ## Supported Hardware
 
 Hardware/Machines currently covered by this guide
