@@ -16,7 +16,7 @@ Hardware/Machines currently covered by this guide
 
 TODO
 - [ ] Trust in procurement of device
-
+- [ ] Firewall security for bundled (Apple) and third party (signed software)
 ### Frameworks
 
 TODO
@@ -77,22 +77,23 @@ TODO
 ## Post-Setup
 ### Firewalls
 #### Inbound Firewalls
-A normal firewall(L3/L4) is primarily used to control Ingress (Inbound)/Egress (Outbound) data flows into a network/device usually by looking at the port and protocol of the connection being attempted. An application firewall(L7) is concerned with "who" is trying to make a connection regardless, typically, of the port/protocol being used. As an example with a normal firewall I might want to block all inbound TCP connections on port 80 where as with an application firewall I would say perhaps block all inbound connections for Apache, or perhaps that might be more refined to block all HTTP connections to Apache.
+A normal firewall(L3/L4) is primarily used to control Ingress (Inbound)/Egress (Outbound) data flows into a network/device usually by looking at the port and protocol of the connection being attempted. An application firewall(L7) is concerned with "who" is trying to make a connection regardless, typically, of the port/protocol being used. As an example with a normal firewall I might want to block all inbound TCP connections on port 80 whereas with an application firewall I would perhaps instead block all inbound connections for Apache, or perhaps that might be more refined to block all inbound HTTP connections to Apache.
 
-As it applies to macOS Apple includes an application firewall which by default is turned off. You should turn this firewall on by navigating to System Preferences -> Security & Privacy -> Firewall. This firewall looks at inbound connections and there are further configurations that can be enabled by going to "Firewall Options", good defaults to enable would be:
+As it applies to macOS Apple includes an application firewall which by default is turned off. You should turn this firewall on by navigating to System Preferences -> Security & Privacy -> Firewall. Note this firewall looks at inbound connections only. Further secure configurations can be enabled by going to "Firewall Options", and enabling the following defaults:
 
-* Automatically allow built-in software to receive incoming connections
+* **Automatically allow built-in software to receive incoming connections**
     * i.e. iCloud, Find My Mac, etc.
-* Automatically allow downloaded and signed software to receive incoming connections
+* **Automatically allow downloaded and signed software to receive incoming connections**
     * i.e anything downloaded from the App Store or in general from a third party that is validly signed by Apple
-* Enable stealth mode
+* **Enable stealth mode**
+    * Don't respond to `ping` requets
 
-##### Popular Software
+Apple offers a bit more detail about these options [here](https://support.apple.com/en-us/HT201642). Apple also publishes a list of ports used by macOS [here](https://support.apple.com/en-us/HT202944)
+
+##### Popular Third-Party Software
 Paid/Proprietary Software:
 * [Vallum](https://www.vallumfirewall.com/)
 * [Murus](https://www.murusfirewall.com/murus/)
-
-Apple offers a bit more detail about these options [here](https://support.apple.com/en-us/HT201642). Apple also publishes a list of ports used by macOS [here](https://support.apple.com/en-us/HT202944)
 
 #### Outbound Firewalls
 While previously associated with users trying to prevent "Hacked/Cracked" software from "Phoning Home", this category of firewalls has seen even further popularity due to proprietary software attempting to send "Telemetry" data, data about the user or or how they configure the software, back to the developer. This has prompted many users to take a more hands on approach to monitoring, and disabling, connections this software tries to make
