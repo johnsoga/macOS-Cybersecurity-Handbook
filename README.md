@@ -104,7 +104,7 @@ Paid/Proprietary Software:
 * [Radio Silence](https://radiosilenceapp.com/)
 
 Free:
-* [LuLu](https://objective-see.com/products/lulu.html)([Open Source(https://github.com/objective-see/LuLu)])
+* [LuLu](https://objective-see.com/products/lulu.html)/[Open Source](https://github.com/objective-see/LuLu)
 
 TODO
 - [ ] Spotlight Suggestions
