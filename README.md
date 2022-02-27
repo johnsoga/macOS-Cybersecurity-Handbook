@@ -25,7 +25,7 @@ TODO
 
 ## Installing macOS
 
-By default, Apple devices come with macOS already pre-installed. Depending on your [security posture](#security-posture) it may be acceptable to use your device as is with this default install and going through the initial configuration setup. If your security posture is higher it may otherwise make more sense to overwrite this install with a new installation of the operating system. This section will cover these different scenarios
+By default, Apple devices come with macOS already pre-installed. Depending on your [security posture](#security-posture) it may be acceptable to use your device as is with this default installation and then going through the initial configuration setup. If your security posture is higher it may require reinstallation to ensure a valid/verified image from Apple. This section will cover these different scenarios.
 
 ### Reinstalling macOS from a Recovery Partition
 
