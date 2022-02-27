@@ -29,11 +29,11 @@ By default, Apple devices come with macOS already pre-installed. Depending on yo
 
 ### Reinstalling macOS from a Recovery Partition
 
-Apple includes a "[Recovery Partition](https://support.apple.com/guide/mac-help/macos-recovery-a-mac-apple-silicon-mchl82829c17)" which allows for several simple diagnostics tasks including [reinstalling](https://support.apple.com/en-us/HT204904) the operating system. 
+Apple includes a "[Recovery Partition](https://support.apple.com/guide/mac-help/macos-recovery-a-mac-apple-silicon-mchl82829c17)" which allows for several simple diagnostics tasks including [reinstalling](https://support.apple.com/en-us/HT204904) the operating system. This method requires an acitve internet connection as it will pull a new copy of macOS from Apple's servers directly.
 
 ### Reinstalling macOS from a Bootable Installer
 
-While reinstalling from a recovery partition will provide you with a fresh install of the OS. It does not reinstall the "Recovery Partiion" itself, so, to have a completely clean platform to reinstall macOS on you will need to wipe the entire disk first. To do this you will need to have the OS image installer on a separate media to reinstall from. Apple provides [documentation](https://support.apple.com/en-us/HT201372) on how to do this. Effectively, you will be booting from that external device as if it was the "Recovery Partition" which will allow you to wipe internal disk of the machine and then reinstall macOS and the "Recovery Partition" on to it.
+While reinstalling the OS via the recovery partition will provide you with a new install of the OS it does not reinstall the "Recovery Partiion" itself. To have a completely clean platform to reinstall macOS on top of you will need to wipe the entire disk first, reinstall the recovery partion, and then finally macOS. To do this you will need to have the base OS image installer on a separate external medium to reinstall from. Apple provides [documentation](https://support.apple.com/en-us/HT201372) on how to do this. Effectively, you will be booting from that external device as if it was the "Recovery Partition" which will allow you to wipe the internal disk of the machine and then reinstall macOS and the "Recovery Partition" on to it.
 
 #### Verify the Installer
 
