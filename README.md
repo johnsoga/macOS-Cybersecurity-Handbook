@@ -1,6 +1,8 @@
 # macOS Cybersecurity Handbook
 
-Currently, Apple is in the process of transitioning their (computers) physical architecture away from Intel (x86) hardware to custom Apple Silicon (ARM) hardware. Even before this broad platform redesign Apple had been designinng and integrating other custom hardware into their machines. To cover all of that hardware there would be a large amount of infromation to cover in this guide. My goal is for this guide to remain as up-to-date, and brief, as possible. To reach this goal this guide will initially only reference Apple's latest hardware configurations. As the guide progresses in completion older platforms/hardware will be added as well. To learn what configurations are currently covered by this guide see the [supported hardware](#supported-hardware) section.
+Currently, Apple is in the process of transitioning their (computers) physical architecture away from Intel (x86) hardware to custom Apple Silicon (ARM) hardware. Even before this broad platform redesign Apple had been designing and integrating other custom hardware into their machines. To cover all of their hardware would require incorporating a large amount of infromation into this guide. My goal is for this guide to remain as up-to-date, and brief, as possible. To reach this goal this guide will initially only reference Apple's latest hardware configurations. As this guide progresses in completion older platforms/hardware maybe added as well. To learn what configurations are currently covered by this guide see the [supported hardware](#supported-hardware) section.
+
+To suggest improvements feel free to submit a pull request or open an [issue](https://github.com/johnsoga/macOS-Cybersecurity-Handbook/issues).
 
 ## Supported Hardware
 
