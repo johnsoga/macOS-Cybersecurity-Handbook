@@ -1,0 +1,5 @@
+https://support.apple.com/guide/sccc/security-certifications-for-macos-sccc5eb3dc4fa/1/web/1.0
+https://support.apple.com/guide/sccc/introduction-sccccea61877b/1/web/1.0
+https://golbiga.medium.com/getting-to-know-macos-security-compliance-project-part-1-31d0689b7c30
+https://blog.kandji.io/securing-macos-nist-compliance-for-every-new-benchmark
+https://grovetech.co/blog/nist-compliance-and-systems-hardening-in-an-all-mac-environment/
